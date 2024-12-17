@@ -1,0 +1,1223 @@
+*,
+*::after,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.firstcontainer{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1546px;
+}
+
+.headerwrapper{
+    display: flex;
+    padding: 10px 0;
+    gap: 90px;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #261e1a;
+}
+
+.headerAdress, .headerEmail, .headerPhone{
+    display: flex;
+    gap: 10px;
+}
+
+.headerPhone{
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    border: none;
+    background-color: #ed8400;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 135%;
+}
+
+.mainNavigation{
+    background-color: #261e1a;
+    padding: 15px 0;
+}
+
+.mainNavigation ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.navigation a{
+    color: #fbfbfb;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 135%;
+    font-size: 16px;
+}
+
+.mainPerevoskaFormaSvyazi{
+    background-image: url(img/firstblockbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.perevoskaFormaSvyaziWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 147px 0 0;
+    gap: 71px;
+}
+
+.perevoskaFormaSvyaziCont{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.formaSvyaziCont, .perevoskaCont{
+    background-color: rgba(240, 255, 255, 0.436) ;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perevoskaCont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perevoskaText p{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fbfbfb;
+}
+
+.formaSvyaziCont form, .formaSvyaziCont label{
+    display: flex;
+    flex-direction: column;
+}
+
+.formaSvyaziCont{
+    display: flex;
+    gap: 30px;
+}
+
+.perevoskaButton button{
+    width: 230px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+.formName {
+    text-align: center;
+}
+ 
+.formaSvyaziCont label{
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    color: #dcddde30;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #ffffff10;
+    border-radius: 5px;
+    border: solid 2px;
+    width: 430px;
+}
+
+textarea{
+    color: #dcddde30;
+    padding: 20px;
+    background-color: #ffffff10;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+::placeholder {
+    color: #dcddde; 
+    opacity: 1; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.formaButton button{
+    width: 290px;
+}
+
+.formaButton{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonStrelki{
+    display: flex;
+    gap: 30px;
+}
+
+.buttonStrelki button{
+    padding: 15px 23px;
+}
+
+.mainUslugi{
+    padding: 100px 0 60px 0;
+}
+
+.uslugiWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.mainTitleUslugi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.line {
+    width: 83px; 
+    height: 4px; 
+    background-color: #ed8400;
+}
+
+.mainTitleUslugi h1{
+    color: #261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.uslugiIconDesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstLineUslugi, .secondLineUslugi{
+    display: flex;
+}
+
+.usluga{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textUsluga{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nameUsluga p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.descUsluga p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.uslugiButton button{
+    width: 310px;
+}
+
+.mainPreimushestva{
+    padding: 100px 0 58px 0;
+    background-image: url(img/preimushestvaBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.preimushestvaWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainTitlePreimushestva{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    text-align: center;
+    align-items: center;
+}
+
+.titlePreimushestvaText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainTitlePreimushestva h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.mainTitlePreimushestva p{
+    color: #ffffff70;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.preimushestvaBlocks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.preimushestvaFirstLine, .preimushestvaSecondLine{
+    display: flex;
+    gap: 30px;
+}
+
+.preimushestvo{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.preimushestvoIcon{
+    background-color: #ed8400;
+    padding: 10px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.preimushestvoText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preimushestvoName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.preimushest p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.mainProectniePerevozki{
+   padding: 120px 0 60px 0; 
+}
+
+.proectniePerevozkiWrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.proectniePerevozkiTitle h1{
+    color: #261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.proectniePerevozkiTitleDescButton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proectniePerevozkiDesc p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.proectniePerevozkiButton{
+    padding-top: 10px;
+}
+
+.proectniePerevozkiButton button{
+    width: 221px;
+}
+
+.proectniePerevozkiKarta {
+    position: relative; 
+}
+
+.zagolovokBlock{
+    position: absolute; 
+    bottom: 0px;
+    right: 0px; 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);     
+    padding: 30px; 
+}
+
+.zagolovokText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.zagolovokName{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.zagolovokDesc{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+
+.multiPerevoski{
+    padding: 120px 0 60px 0;
+}
+
+.multiPerevoskiWrapper{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.multiPerevoskiTitleDescButton{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.multiPerevoskiTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.multiPerevoskiTitle h1{
+    color: #261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.multiPerevoskiDesc p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.multiPerevoskiButton button{
+    width: 221px;
+}
+
+.mainAboutCompany{
+    padding: 127px 0 141px 0;
+}
+
+.aboutCompanyWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutCompanyTitle{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutCompanyTitle h1{
+    color: #261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.aboutCompanyDesc{
+    display: flex;
+    gap: 30px;
+}
+
+.aboutCompanyDesc p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.mainConsultaciya{
+    padding: 100px 0 60px 0;
+    background-image: url(img/consultanciiBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ConsultaciyaWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.consultaciyaTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.titlePreimushestvaText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titlePreimushestvaText h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.titlePreimushestvaText p{
+    color: #ffffff70;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.consultaciyaForma, .consultaciyaForma form{
+    display: flex;
+    gap:30px;
+}
+
+.consultaciyaForma{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.consultaciyaForma input{
+    background-color: #f4f5f5;
+    border-color: #dcddde;
+    width: 407px;
+    height: 64px;
+}
+
+.consultaciyaForma ::placeholder {
+    color: #797b7d;
+}
+
+.consultaciyaForma label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.consultaciyaFormaButton button{
+    width: 236px;
+    height: 64px;
+}
+
+.mainetapiRabotiSClientami{
+    padding: 100px 60px;
+}
+
+.etapiRabotiSClientamiWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.etapiRabotiSClientamiTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.etapiRabotiSClientamiTitleText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.etapiRabotiSClientamiTitleText h1{
+    color:#261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.etapiRabotiSClientamiTitleText p{
+    color: #797b7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.etapiRabotiSClientami{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.etapiRabotiSClientamiFirstLine, .etapiRabotiSClientamiSecLine{
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+}
+
+.etapiRabotiSClientamiFirstLine{
+    gap: 280px;
+}
+
+.etapiRabotiSClientamiLine{
+    display: flex; 
+    align-items: center;
+}
+
+.etap h5{
+    font-size: 20px;
+}
+
+.etap p{
+    color: #797b7d; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.etapiRabotiSClientamiLine hr{
+    width: 190px;
+    height: 1px;
+}
+
+.etapiRabotiSClientamiLine .firsthr {
+    width: 50px;
+}
+
+.etapiRabotiSClientamiLine .sechr {
+    width: 250px;
+}
+
+.mainClienti{
+    padding: 100px 0 60px 0;
+    background-color: #F4F5F5;
+}
+
+.clientiTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.clientiTitle h1{
+    color: #261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.clientiWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.clienti{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.clientiLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parkTechnikiWrapper{
+    padding: 100px 0 178px 0;
+}
+
+.parkTechnikiTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.parkTechnikiTitleText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.parkTechnikiTitleText h1{
+    color:#261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.parkTechnikiTitleText p{
+    color: #797b7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.parkTechnikiNavBlock{
+    padding: 60px 0 28px 0;
+}
+
+.parkTechnikiNavBlock ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.parkTechnikiNavBlock li{
+    padding: 10px 20px;
+    border: #dcddde solid 2px;
+    border-radius: 5px;
+}
+
+.parkTechnikiNavBlock a{
+    color: #797b7d;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+#firstTechnika{
+    background-color: #ed8400;
+    border:#ed8400;
+}
+
+#firstTechnika a{
+    color:#ffffff;
+}
+
+.parkTechnikiTechnika{
+    display: flex;
+    gap: 30px;
+}
+
+.technikaNameDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technikaName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.technikaDesc p{
+    color: #797b7d;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.technikaNameDescCharactButton{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.technikaNameDescCharact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.technikaCharact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technikaCharacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technikaCharactName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.longline{
+    border-bottom: dotted 1px #797b7d;
+    width: 256px;
+    height: 0px;
+}
+
+.charact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.charact p{
+    color: #797b7d;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.mainTeka{
+    background-color: #f4f5f5;
+    padding: 100px 0 52px 0;
+}
+
+.tekaWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.tekaTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.tekaTitle h1{
+    color:#261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.tekaBlock{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.tekaIconKolVoNameDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.tekaNameDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.tekaKolVo p{
+    color: #ed8400;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.tekaName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tekaDesc p{
+    color: #797b7d;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.primeriProectovWrapper{
+    padding: 100px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.primeriProectovTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.primeriProectovTitleText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.primeriProectovTitleText h1{
+    color:#261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.primeriProectovTitleText p{
+    color: #797b7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.primeriProectov{
+    display: flex;
+    gap: 30px;
+}
+
+.primeriProectovDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.primeriProectovName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.primeriProectovDesc p{
+    color: #797b7d;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.primeriProectovNameDescCharactButton{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.primeriProectovNameDescCharact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.primeriProectovCharact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.primeriProectovCharacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.primeriProectovCharactName p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mainVoprosi{
+    padding: 100px 0 60px 0;
+}
+
+.VoprosiWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.VoprosiTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.VoprosiTitleText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.VoprosiTitleText h1{
+    color:#261e1a;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.VoprosiTitleText p{
+    color: #797b7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.VoprosiBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vopros{
+    display: flex;
+    width: 970px;
+    padding: 20px 20px 20px 30px;
+    border: solid 2px #dcddde;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vopros img{
+    height: 100%;
+}
+
+.vopros p{
+    color: #797b7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mainAdressContact{
+    padding: 100px 0 46px 0;
+    background-image: url(img/adresscontactBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AdressContactWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.AdressContacTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.AdressContacTitle h1{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.AdressContactFormaBlock{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.AdressContact, .AdressContactForma{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.AdressContact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contInformationTitle p{
+    color: #261e1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.obshestvoTeka p{
+    color: #797B7D;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+.adressnumblock p{
+    color: #261e1a;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px; 
+}
+
+.adressnumblock h5{
+    color: #ed8400;
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+.socIcons{
+    display: flex;
+    gap: 15px;
+}
+
+.formaAdressContact{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formaAdressContact form, .formaAdressContact label{
+    display: flex;
+    flex-direction: column;
+}
+
+.formaAdressContact{
+    display: flex;
+    gap: 30px;
+}
+
+.formaAdressContact label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formaAdressContact form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.formaAdressContact h2 {
+    color: #261e1a; 
+}
+
+.formaAdressContact .formName {
+    text-align: left;
+}
+
+.formaAdressContact input{
+    color: #DCDDDE;
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #F4F5F5;
+    border-radius: 5px;
+    border: solid 2px;
+    width: 430px;
+}
+
+.formaAdressContact textarea{
+    color: #DCDDDE;
+    padding: 20px;
+    background-color: #F4F5F5;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.formaAdressContact ::placeholder {
+    color: #797B7D; 
+    opacity: 1; 
+    font-weight: 400;
+    line-height: 135%;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #231F20;
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0 27px 0;
+}
+
+footer p{
+    font-weight: 400px;
+    font-size: 20px;
+    color: #ffffff25;
+}
+
+.razrabotan{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.razrabotan img{
+    height: 15px;
+}
+
